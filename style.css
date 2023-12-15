@@ -87,3 +87,10 @@ body{
 .weather{
 display: none;
 }
+
+
+@media only screen and (max-width: 525px) {
+    .search button {
+        width: calc(100%-50px);
+    }
+}

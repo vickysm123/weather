@@ -4,8 +4,8 @@ const searchbox = document.querySelector(".search input");
 const searchbtn = document.querySelector(".search button");
 const weatherIcon = document.querySelector(".weather-icon");
 
-async function checkWeather(city){
-   const response = await fetch(apiurl + city +`&appid=${apikey}`);
+async function checkWeather(name){
+   const response = await fetch(apiurl + name +`&appid=${apikey}`);
    var data = await response.json();
    console.log(data);
    document.querySelector(".temp").innerHTML=Math.round(data.main.temp )+ "°C";

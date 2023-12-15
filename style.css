@@ -91,6 +91,11 @@ display: none;
 
 @media only screen and (max-width: 525px) {
     .search button {
-        width: calc(100px-50px);
+        display: contents;
+        position: relative;
+    }
+    .search button img {
+        position:absolute;
+        right: 19%;
     }
 }

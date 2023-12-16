@@ -97,4 +97,8 @@ display: none;
         position:absolute;
         right: 19%;
     }
+    .search{
+        width: 100%;
+        display: flex
+    }
 }
